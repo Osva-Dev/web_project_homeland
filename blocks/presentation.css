@@ -1,0 +1,35 @@
+.presentation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 0;
+}
+
+.presentation__title {
+  margin-top: 92px;
+  font-family: Inter;
+  font-weight: 900;
+  font-size: 96px;
+  leading-trim: NONE;
+  line-height: 100px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.presentation__paragraph {
+  margin-top: 32px;
+  font-family: Inter;
+  font-weight: 400;
+  font-size: 30px;
+  leading-trim: NONE;
+  line-height: 36px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.presentation__image {
+  margin-top: 64px;
+  max-width: 990px;
+  max-height: 615px;
+}
