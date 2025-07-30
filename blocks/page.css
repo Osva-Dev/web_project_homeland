@@ -1,9 +1,17 @@
+@font-face {
+  font-family: "Inter";
+  src: url(../fonts/Inter-Regular.ttf) format("truetype"),
+    url(../fonts/Inter-Regular.woff2) format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
 .page {
   margin: auto;
-  font-family: "Inter", "Arial", sans-serif, "Arial", sans-serif, "Noto Serif",
-    "Times New Roman", serif, "Times New Roman", serif;
-  font-size: 16px;
-  line-height: 20px;
+  font-family: "Inter", sans-serif;
+  font-size: 1rem;
+  line-height: 0.8;
   background-color: #2a2c2f;
   color: white;
 }
