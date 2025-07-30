@@ -8,6 +8,7 @@
 
 .presentation__title {
   margin-top: 5.75rem;
+  max-width: 36rem;
   font-family: "Inter", sans-serif;
   font-weight: 900;
   font-size: 6rem;
