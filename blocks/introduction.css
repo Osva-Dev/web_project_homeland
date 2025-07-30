@@ -1,12 +1,12 @@
 .introduction {
-  max-width: 990px;
+  max-width: 61.875rem;
   margin: auto;
   display: flex;
   flex-direction: column;
 }
 
 .introduction__title {
-  max-width: 780px;
+  max-width: 48.75rem;
   font-family: Inter;
   font-weight: 900;
   font-size: 54px;
@@ -15,7 +15,7 @@
 }
 
 .introduction__phrase {
-  max-width: 720px;
+  max-width: 45rem;
   font-family: Inter;
   font-weight: 400;
   font-size: 24px;
@@ -24,7 +24,7 @@
 }
 
 .introduction__person {
-  max-width: 720px;
+  max-width: 45rem;
   font-family: Inter;
   font-weight: 400;
   font-size: 24px;
@@ -34,10 +34,41 @@
 }
 
 .introduction__paragraph {
-  max-width: 720px;
+  max-width: 45rem;
   font-family: Inter;
   font-weight: 400;
   font-size: 16px;
   line-height: 163%;
   letter-spacing: 0%;
+}
+
+@media screen and (max-width: 768px) {
+  .introduction__title {
+    max-width: 40.75rem;
+    font-family: Inter;
+    font-weight: 900;
+    font-size: 45px;
+    line-height: 49px;
+  }
+  .introduction__phrase {
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 34px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .introduction__title {
+    font-family: Inter;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 35px;
+  }
+  .introduction__phrase {
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 30px;
+  }
 }

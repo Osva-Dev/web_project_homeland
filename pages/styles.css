@@ -1,15 +1,6 @@
 @import url(../vendor/normalize.css);
+@import url(../blocks/page.css);
 @import url(../blocks/header.css);
 @import url(../blocks/presentation.css);
 @import url(../blocks/introduction.css);
 @import url(../blocks/footer.css);
-
-.page {
-  margin: auto;
-  font-family: "Inter", "Arial", sans-serif, "Arial", sans-serif, "Noto Serif",
-    "Times New Roman", serif, "Times New Roman", serif;
-  font-size: 16px;
-  line-height: 20px;
-  background-color: #2a2c2f;
-  color: white;
-}
