@@ -8,6 +8,6 @@ La página web de Tripleten Art Gallery es el quinto proyecto en el programa de 
 - Medias Queries
 - Metodologia BEM
 
-## Link de la Pagina Web
+## Link de la Página Web
 
 [https://osva-dev.github.io/web_project_homeland/](https://osva-dev.github.io/web_project_homeland/)
