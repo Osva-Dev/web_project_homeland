@@ -10,4 +10,4 @@ La página web de Tripleten Art Gallery es el quinto proyecto en el programa de 
 
 ## Link de la Pagina Web
 
-[text](https://osva-dev.github.io/web_project_homeland/)
+[https://osva-dev.github.io/web_project_homeland/](https://osva-dev.github.io/web_project_homeland/)
