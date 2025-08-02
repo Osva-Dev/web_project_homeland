@@ -4,3 +4,64 @@
 @import url(../blocks/presentation.css);
 @import url(../blocks/introduction.css);
 @import url(../blocks/footer.css);
+
+.gallery {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 188px;
+}
+
+.gallery__photos {
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
+  max-width: 1280px;
+  width: 100%;
+}
+
+.gallery__images {
+  max-width: 284px;
+  width: 100%;
+  height: 213px;
+}
+
+@media screen and (max-width: 768px) {
+  .gallery__photos {
+    display: grid;
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 768px;
+    width: 100%;
+  }
+  .gallery__images {
+    max-width: 352px;
+    width: 100%;
+    height: 264px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .gallery {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .gallery__photos {
+    display: grid;
+    grid-template-rows: repeat(1, 1fr);
+    grid-template-columns: repeat(1, 1fr);
+    max-width: 320px;
+    width: 100%;
+    column-gap: 16px;
+    row-gap: 12px;
+  }
+  .gallery__images {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 228px;
+    width: 100%;
+    height: 216px;
+  }
+}
