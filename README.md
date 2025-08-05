@@ -6,6 +6,7 @@ La página web de Tripleten Art Gallery es el quinto proyecto en el programa de 
 
 - HTML5 semántico
 - Medias Queries
+- Grid Layout
 - Metodologia BEM
 
 ## Link de la Página Web
